@@ -3,13 +3,14 @@ body {
     box-sizing: border-box;
 }
 
+
 header {
     text-align: center;
     padding: 20px;
     font-size: 20px;
 }
 
-.container {
+.example {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,6 +21,7 @@ header {
     border: 2px solid black;
     margin: 20px;
     padding: 10px 10px 1px 20px;
+    background-color: #F5CA7E;
 }
 
 .item1 h3 {
@@ -66,10 +68,13 @@ header {
     margin: 7px;
     text-align: left;
 }
+p{
+    font-size: 130%;
+}
 
 /* Desktop view (992px and above) */
 @media screen and (min-width: 992px) {
-    .container {
+    .example {
         flex-direction: row;
     }
 
@@ -80,7 +85,7 @@ header {
 
 /* Tablet view (768px to 991px) */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .container {
+    .example {
         flex-direction: column;
     }
 
@@ -96,7 +101,7 @@ header {
 
 /* Mobile view (767px and below) */
 @media screen and (max-width: 767px) {
-    .container {
+    .example {
         flex-direction: column;
     }
 
