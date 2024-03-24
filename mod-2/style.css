@@ -1,4 +1,4 @@
-body {
+body{
     font-family: cursive;
     box-sizing: border-box;
 }
@@ -45,7 +45,7 @@ header {
 }
 
 .item3 h3 {
-    background-color: #F5CA7E;
+    background-color:blueviolet
     width: 30%;
     margin-left: 72.2%;
     margin-top: -12px;
