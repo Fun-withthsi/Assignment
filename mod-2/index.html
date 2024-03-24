@@ -1,50 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 2 Assignment</title>
-    <link rel="icon" type="image/x-icon" href="icon.ico">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Responsive Layout</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href='css/style.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <header>
-        <h1>
-            Our Menu
-        </h1>
-    </header>
-    <div class="example">
-        <section class="menu-item">
-            <div class="item1">
-                <h3>Chicken</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit earum deserunt illum qui hic at, 
-                incidunt beatae quaerat,corporis reiciendis laudantium sunt ex dignissimos ratione enim commodi eum provident aliquid.</p>
-            </div>
-        </section>
-        <section class="menu-item">
-            <div class="item2">
-                <h3>Beef</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit earum deserunt illum qui hic at, 
-                    incidunt beatae quaerat,corporis reiciendis laudantium sunt ex dignissimos ratione enim commodi eum provident aliquid.</p>
-            </div>
-        </section>
-        <section class="menu-item">
-            <div class="item3">
-                <h3>Sushi</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit earum deserunt illum qui hic at, 
-                incidunt beatae quaerat,corporis reiciendis laudantium sunt ex dignissimos ratione enim commodi eum provident aliquid.</p>
-            </div>
-        </section>
+  <div class="container">
+    <div class="row">
+
+    <h1 class="menu-title">Our menu</h1>
+      <div class="col-lg-4">
+        <div class="item">
+          <div class="item-title" id="title-one">
+            <h3>Chicken</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="item">
+         <div class="item-title" id="title-two">
+          <h3>Beef</h3>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non.
+        </p>
+      </div>
     </div>
+    <div class="col-lg-4 col-lg-tablet">
+      <div class="item">
+       <div class="item-title" id="title-three">
+        <h3>Sushi</h3>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non.
+      </p>
+    </div>
+  </div>
 
-    <footer class="footer">
-        <div class="footer-text">
-            <p>&copy; Copyright  Funwiththsi | All Rights Reserved</p>
-        </div>
-
-        <div class="footer-iconTop">
-            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
-        </div>
-    </footer>
+</div>
+</div>
 </body>
 </html>
